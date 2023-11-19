@@ -8,7 +8,7 @@ import Message from "./components/Message";
 function App() {
     const percents = [0, 5, 10, 20]
     const [bill, setBill] = useState(0);
-    const [myTip, setMyTip] = useState();
+    const [myTip, setMyTip] = useState(0);
     const [friendTip, setFriendTip] = useState(0);
 
     const handleReset = () => {
