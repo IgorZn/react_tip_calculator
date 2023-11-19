@@ -12,7 +12,7 @@ function Bill({setBill, bill}) {
                 <Col className={"col-3"}>
                     How much was the bill?
                 </Col>
-                <Col>
+                <Col className={"col-3"}>
                     <InputGroup className="mx-3">
                         <InputGroup.Text className={"px-3"}>$&nbsp;</InputGroup.Text>
                         <Form.Control
